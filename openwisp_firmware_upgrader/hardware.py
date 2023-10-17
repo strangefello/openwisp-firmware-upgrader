@@ -441,6 +441,13 @@ OPENWRT_FIRMWARE_IMAGE_MAP.update(
                     'boards': ('Ubiquiti UAP Pro',),
                 },
             ),
+            # UniFi 6 LR v2
+            (
+                'mt7622-ubnt_unifi-6-lr-v2-squashfs-sysupgrade.bin', #remove versioning and chipset oem from front?
+                {
+                    'label': 'Ubiquiti UniFi 6 LR v2',
+                    'boards': ('Ubiquiti UniFi 6 LR v2',), #From 'model' in /api/v1/controller/device/?
+            ),
             (
                 'ramips-mt7621-yuncore_ax820-squashfs-sysupgrade.bin',
                 {
