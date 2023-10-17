@@ -445,7 +445,7 @@ OPENWRT_FIRMWARE_IMAGE_MAP.update(
             (
                 'mt7622-ubnt_unifi-6-lr-v2-squashfs-sysupgrade.bin', #remove versioning and chipset oem from front?
                 {
-                    'label': 'Ubiquiti UniFi 6 LR v2'
+                    'label': 'Ubiquiti UniFi 6 LR v2',
                     'boards': ('Ubiquiti UniFi 6 LR v2',), #From 'model' in /api/v1/controller/device/?
             ),
             (
